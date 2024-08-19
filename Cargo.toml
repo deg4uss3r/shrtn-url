@@ -1,0 +1,11 @@
+[package]
+name = "shtn_url"
+version = "0.1.0"    # the current version, obeying semver
+authors = ["Ricky <Ricky@Hosfe.lt>"]
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+base64 = "0.22"
+clap = { version = "4.5", features = [ "derive" ] }
+url = "2.5"
